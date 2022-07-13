@@ -1,0 +1,38 @@
+footer {
+  background-color: #000;
+  padding: 1rem 0;
+  background-image: url(https://www.tranduythien.net/wp-content/uploads/2022/02/footer_background.png);
+  border-top: 1px solid #fff;
+  background-size: cover;
+  height: 4rem;
+}
+
+.footer__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left img {
+  margin-right: 0.5rem;
+}
+
+.footer__left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.footer__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__right a {
+  color: #fff;
+  padding: 0 2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,82 @@
+.shoppoint {
+  padding: 2rem 1rem 1rem;
+  max-width: 1100px;
+  margin: auto;
+  height: calc(100vh - 10rem);
+  overflow-y: scroll;
+}
+
+.shoppoint::-webkit-scrollbar {
+  display: none;
+}
+.index__item {
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.index__item:hover .index__item-overview,
+.index__item:hover .index__item-avatar {
+  opacity: 1;
+  border-color: #fff;
+}
+
+.shoppoint .index__item .index__item-avatar {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+}
+
+.index__item .index__item-avatar img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.index__item .index__item-overview {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  background-color: #000;
+  background-image: url(https://www.tranduythien.net/wp-content/uploads/2022/03/Asset-1.png);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding: 0.4rem 0.2rem;
+  flex-direction: column;
+}
+
+.index__item .index__item-overview .index__item-name {
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.1;
+  margin-bottom: 0;
+  height: 1.6rem;
+  overflow: hidden;
+}
+
+.index__item .index__item-overview .index__item-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.index__item
+  .index__item-overview
+  .index__item-price
+  .index__item-pricediscount {
+  text-decoration: line-through;
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 0.25rem;
+}
+
+.index__item .index__item-overview .index__item-price .index__item-priceorigin {
+  padding-bottom: 0.25rem;
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-family: -apple-system, "BlinkMacSystemFont", Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-variant: tabular-nums;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: tabular-nums;
+  font-variant-east-asian: normal;
+  line-height: 1.5715;
+  background-color: #fff;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  -moz-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+}
+body,
+html {
+  background-color: #000 !important;
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #f4ab1a;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  color: #fff;
+  background: #f4ab1a !important;
+}

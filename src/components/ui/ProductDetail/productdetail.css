@@ -1,0 +1,171 @@
+.sliderBoder {
+  border-right: 1px solid #fff;
+}
+
+.productdetail {
+  padding: 1rem 1.5rem;
+  height: -webkit-calc(100vh - 10rem - 5rem);
+  height: calc(100vh - 10rem - 5rem);
+  overflow-y: scroll;
+  position: relative;
+}
+
+.productdetail .product__desc .content .title {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.productdetail .product__desc .content .title span {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.25rem;
+}
+
+.productdetail .product__desc .content .meta p {
+  font-size: 0.8rem;
+}
+
+.productdetail .product__desc .content .meta * {
+  color: #fff !important;
+}
+
+.product__desc .content {
+  margin-bottom: 1.5rem;
+  min-height: 8rem;
+}
+
+.ant-select-selector {
+  background: #000 !important;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.ant-select {
+  width: 100%;
+  background: #000;
+}
+
+.ant-select-dropdown {
+  background: #424242 !important;
+}
+
+.ant-select-item-option-active {
+  background: gray !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  background-color: gray;
+}
+
+.buttonproduct {
+  height: 5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.buttonproduct .btn__addtocart {
+  background-image: url(https://www.tranduythien.net/wp-content/uploads/2022/03/Asset-1.png);
+  background-size: 100% 100%;
+  background-position: 0 0;
+  background-color: #000;
+  border: 1px solid #fff;
+  width: -webkit-calc(100% - 3rem);
+  width: calc(100% - 3rem);
+  margin: 1rem auto;
+  font-size: 0.8rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  height: 2.7rem;
+  background-repeat: no-repeat;
+}
+
+.buttonproduct .btn__addtocart:hover {
+  background-color: rgba(255, 180, 26, 0.1);
+  border-color: #ffb41a;
+}
+
+.productdetail__image {
+  padding: 2rem;
+  height: -webkit-calc(100vh - 10rem);
+  height: calc(100vh - 10rem);
+  overflow-y: scroll;
+  position: relative;
+  max-width: 650px;
+  margin: auto;
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: #ffc745;
+  border-right-width: 1px;
+}
+
+.relativeSlice {
+  height: calc(100vh - 10rem);
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.relativeSlice .slick-slide:active,
+.relativeSlice .slick-slide:hover {
+  opacity: 1;
+  z-index: 50;
+}
+
+.relativeSlice .slick-center img,
+.relativeSlice .slick-center .index__item-overview {
+  opacity: 1;
+}
+
+.relativeSlice .slick-slide {
+  transform: scale(0.7) translate(0);
+  opacity: 0.3;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.relativeSlice .slick-center {
+  z-index: 10;
+  opacity: 1;
+  transform: scale(1) translate(0);
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.relativeSlice .index__item .index__item-avatar {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  height: 170px;
+}
+.relativeSlice .slick-center {
+  z-index: 10;
+  opacity: 1;
+  transform: scale(1) translate(0);
+}
+
+.relativeSlice .slick-slide {
+  margin: -40px 0;
+}
+
+.relativeSlice .slick-track {
+  padding-top: 250px;
+}
+
+.relativeSlice .slick-arrow {
+  padding: 0 40px;
+}
+
+.relativeSlice .slick-arrow {
+  right: 10px;
+}

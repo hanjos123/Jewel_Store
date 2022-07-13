@@ -1,0 +1,80 @@
+.ant-modal-content {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.ant-input {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.ant-input-affix-wrapper {
+  background-color: #000;
+}
+
+.ant-input-prefix {
+  margin-right: 4px;
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #ffc745;
+  border-right-width: 1px;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  border-color: #ffc745;
+  -webkit-box-shadow: 0 0 0 2px rgb(244 171 26 / 20%);
+  box-shadow: 0 0 0 2px rgb(244 171 26 / 20%);
+  border-right-width: 1px;
+  outline: 0;
+}
+
+.login {
+  color: #fff;
+  border-color: #f4ab1a;
+  background: #f4ab1a;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.login:hover {
+  color: #fff;
+  border-color: #ffc745;
+  background: #ffc745;
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toolLink span {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
